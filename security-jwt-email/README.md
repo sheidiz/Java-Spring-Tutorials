@@ -21,7 +21,7 @@ cd your-repository
 
 ### **Environment Configuration**
 1. Configure the application.properties File ->
-Create or edit the src/main/resources/application.properties file with the necessary configuration. Here is a sample configuration:
+Create a .env file with your own database information, jwt secret key and email configuration. Make sure you don't upload it to your repository, but do use it locally. Here is a sample configuration:
 ```bash
 #DATABASE CONFIGURATION
 SPRING_DATASOURCE_URL=your_database_connection
