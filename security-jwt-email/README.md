@@ -15,8 +15,9 @@ Ensure you have the following installed:
 First, clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone [https://github.com/your-username/your-repository.git](https://github.com/sheidiz/Java-Spring-Tutorials.git)
+cd Java-Spring-Tutorials
+cd security-jwt-email
 ```
 
 ### **Environment Configuration**
