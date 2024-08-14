@@ -10,17 +10,7 @@ Ensure you have the following installed:
 - Maven 3.6 or higher
 - An email account for sending verification emails (if email functionality is used)
 
-## **Clone the Repository**
-
-First, clone the repository from GitHub:
-
-```bash
-git clone [https://github.com/your-username/your-repository.git](https://github.com/sheidiz/Java-Spring-Tutorials.git)
-cd Java-Spring-Tutorials
-cd security-jwt-email
-```
-
-### **Environment Configuration**
+## **Environment Configuration**
 1. Configure the application.properties File ->
 Create a .env file with your own database information, jwt secret key and email configuration. Make sure you don't upload it to your repository, but do use it locally. Here is a sample configuration:
 ```bash
@@ -44,18 +34,25 @@ If you are using an email provider to send verification emails, ensure you confi
 - Gmail: If using Gmail, enable access for less secure apps or use an app-specific password.
 - Mailtrap: If using Mailtrap, make sure to enter the correct SMTP server details and credentials.
 
-### **Dependencies and Build**
-1. Install Project Dependencies ->
+## **Dependencies and Build**
+
+1. Clone the repository from GitHub and navegate to the project folder:
+```bash
+git clone https://github.com/sheidiz/Java-Spring-Tutorials.git
+cd Java-Spring-Tutorials
+cd security-jwt-email
+```
+2. Install Project Dependencies ->
 Use Maven to install dependencies and build the project:
 ```bash
 mvn clean install
 ```
-2. Run the Application -> 
-Once built, run the application with:
+3. Run the Application -> 
+Once built, *run the application with:
 ```bash
 mvn spring-boot:run
 ```
-**The application will start on port 8080 by default, unless otherwise configured in application.properties.
+_*The application will start on port 8080 by default, unless otherwise configured in application.properties._
 
 ### **API Usage**
 1. Public Endpoints -> The following endpoints are available without authentication:
